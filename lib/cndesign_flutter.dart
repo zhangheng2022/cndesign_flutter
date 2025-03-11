@@ -1,3 +1,3 @@
 library;
 
-export 'src/components/button/cn_main_button.dart';
+export 'src/components/button/cn_button.dart';
