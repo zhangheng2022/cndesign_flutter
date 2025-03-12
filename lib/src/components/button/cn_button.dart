@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cndesign_flutter/cndesign_flutter.dart';
 
 class CnButton extends StatelessWidget {
   final String text;
@@ -13,7 +14,7 @@ class CnButton extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
         decoration: BoxDecoration(
-          color: Colors.blue,
+          color: CnTheme.of(context).brandColor6,
           borderRadius: BorderRadius.circular(8.0),
           boxShadow: [
             BoxShadow(
